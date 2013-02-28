@@ -17,7 +17,7 @@ require 'pp'
 # - Return nil (or anything not a Hash or false) to have the object forwarded (along with any 
 #    modifications made to it)
 
-class SiriProxy::Plugin::Example < SiriProxy::Plugin
+class SiriProxy::Plugin::Domotic < SiriProxy::Plugin
   def initialize(config)
     #if you have custom configuration options, process them here!
   end
