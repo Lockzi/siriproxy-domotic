@@ -2,7 +2,7 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
-  s.name        = "siriproxy-example"
+  s.name        = "siriproxy-domotic"
   s.version     = "0.10.7"
   s.authors     = ["plamoni, jimmykane, thpryrchn, ponyboy47"]
   s.email       = [""]
@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.summary     = %q{An Example Siri Proxy Plugin}
   s.description = %q{This is a "hello world" style plugin. It simply intercepts the phrase "text siri proxy" and responds with a message about the proxy being up and running. This is good base code for other plugins. }
 
-  s.rubyforge_project = "siriproxy-example"
+  s.rubyforge_project = "siriproxy-domotic"
 
   s.files         = `git ls-files 2> /dev/null`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/* 2> /dev/null`.split("\n")

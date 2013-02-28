@@ -2,3 +2,5 @@
 .bundle
 Gemfile.lock
 pkg/*
+siriproxy-Domotic.sublime-workspace
+sftp-config.json
